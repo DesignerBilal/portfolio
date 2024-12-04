@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Bilal | Web Devleoper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Audio Element -->
+  <audio id="background-audio" autoplay loop>
+    <source src="assets/audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="bubble-container">
+      <div class="bubble"></div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+
+   <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">&lt; M.Bilal /&gt;</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <nav class="nav-links" id="nav-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+  
+  
+  <div id="circle"></div>
+  <div class="hero">
+    <!-- Typing Effect -->
+    <h2>Hello Everyone!</h2>
+    <h3>I am</h3>
+    <h1 class="typ">Muhammad Bilal, a <br><span class="spn"></span></h1>
+  </div>
+  <button id="audio-control" onclick="toggleAudio()">▶</button>
+  </div>
+
+  <script src="scripts/script.js"></script>
+  <script src="scripts/audio.js"></script>
+  <script src="scripts/typ.js"></script>
+</body>
+
+</html>
